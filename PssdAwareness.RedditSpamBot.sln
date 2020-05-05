@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PssdAwareness.RedditSpamBot.Console", "PssdAwareness.RedditSpamBot.Console\PssdAwareness.RedditSpamBot.Console.csproj", "{4B73AF81-DBF6-43A7-A2B0-459DC69FC831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PssdAwareness.RedditSpamBot.Console", "src\PssdAwareness.RedditSpamBot.Console\PssdAwareness.RedditSpamBot.Console.csproj", "{4B73AF81-DBF6-43A7-A2B0-459DC69FC831}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PssdAwareness.RedditSpamBot.Api", "PssdAwareness.RedditSpamBot.Api\PssdAwareness.RedditSpamBot.Api.csproj", "{5A37B0DD-79C9-49C0-A36A-CC4CE2EB40A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PssdAwareness.RedditSpamBot.Api", "src\PssdAwareness.RedditSpamBot.Api\PssdAwareness.RedditSpamBot.Api.csproj", "{5A37B0DD-79C9-49C0-A36A-CC4CE2EB40A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PssdAwareness.RedditSpamBot.Common", "PssdAwareness.RedditSpamBot.Common\PssdAwareness.RedditSpamBot.Common.csproj", "{39FD16CB-DE3A-432A-94F6-F66AFC643D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PssdAwareness.RedditSpamBot.Common", "src\PssdAwareness.RedditSpamBot.Common\PssdAwareness.RedditSpamBot.Common.csproj", "{39FD16CB-DE3A-432A-94F6-F66AFC643D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PssdAwareness.RedditSpamBot.Test", "test\PssdAwareness.RedditSpamBot.Test\PssdAwareness.RedditSpamBot.Test.csproj", "{39F22A2A-7146-4552-BBDA-3D31E948D6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{39FD16CB-DE3A-432A-94F6-F66AFC643D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39FD16CB-DE3A-432A-94F6-F66AFC643D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FD16CB-DE3A-432A-94F6-F66AFC643D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F22A2A-7146-4552-BBDA-3D31E948D6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F22A2A-7146-4552-BBDA-3D31E948D6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F22A2A-7146-4552-BBDA-3D31E948D6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F22A2A-7146-4552-BBDA-3D31E948D6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
